@@ -36,7 +36,7 @@ body{
 /*Header sedtion css style End*/
 
 
-/*Main-container section css style Start*/
+/*Main-container-one section css style Start*/
 .main-container-one{
     display: flex;
     background-color: black;
@@ -90,3 +90,63 @@ button{
     margin-top: 50px;
 }
 /*Main-container section css style End*/
+
+
+/*Main-container-two section css style Start*/
+.main-container-two{
+    margin-top: 100px;
+}
+
+.gym-icon{
+    display: flex;
+}
+
+.gym-icon-one{
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 140px;
+    background-color: darkgrey;
+    border: 2px solid rgb(150, 149, 149);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px rgb(165, 163, 163);
+}
+
+.gym-icon-one:hover{
+    height: 520px;
+    background-color: pink;
+}
+
+.gym-icon-two{
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    margin: 20px;
+    background-color: darkgrey;
+    border: 2px solid rgb(150, 149, 149);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px rgb(165, 163, 163);
+}
+
+.gym-icon-two:hover{
+    height: 520px;
+    background-color: pink;
+}
+
+.gym-icon-tree{
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    margin: 20px;
+    margin-right: 140px;
+    background-color: darkgrey;
+    border: 2px solid rgb(150, 149, 149);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px rgb(165, 163, 163);
+}
+
+.gym-icon-tree:hover{
+    height: 520px;
+    background-color: pink;
+}
