@@ -103,7 +103,7 @@ button{
 
 .gym-icon-one{
     width: 400px;
-    height: 500px;
+    height: 470px;
     padding: 20px;
     margin: 20px;
     margin-left: 140px;
@@ -111,6 +111,7 @@ button{
     border: 2px solid rgb(150, 149, 149);
     border-radius: 10px;
     box-shadow: 2px 2px 5px 5px rgb(165, 163, 163);
+    transition: .8s;
 }
 
 .gym-icon-one:hover{
@@ -120,13 +121,14 @@ button{
 
 .gym-icon-two{
     width: 400px;
-    height: 500px;
+    height: 470px;
     padding: 20px;
     margin: 20px;
     background-color: darkgrey;
     border: 2px solid rgb(150, 149, 149);
     border-radius: 10px;
     box-shadow: 2px 2px 5px 5px rgb(165, 163, 163);
+    transition: .8s;
 }
 
 .gym-icon-two:hover{
@@ -136,7 +138,7 @@ button{
 
 .gym-icon-tree{
     width: 400px;
-    height: 500px;
+    height: 470px;
     padding: 20px;
     margin: 20px;
     margin-right: 140px;
@@ -144,9 +146,37 @@ button{
     border: 2px solid rgb(150, 149, 149);
     border-radius: 10px;
     box-shadow: 2px 2px 5px 5px rgb(165, 163, 163);
+    transition: .8s;
 }
 
 .gym-icon-tree:hover{
     height: 520px;
     background-color: pink;
+}
+
+.text-two{
+    font-size: 30px;
+    text-align: center;
+}
+/*Main-container-two section css style End*/
+
+
+/*Main-container-tree section css style Start*/
+.Main-Container-tree{
+    margin-top: 100px;
+}
+
+.about-us{
+    display: flex;
+    border: 2px solid red;
+}
+
+.gym-one{
+    width: 100%;
+    height: 100%;
+}
+
+.gym-two{
+    width: 100%;
+    height: 100%;
 }
