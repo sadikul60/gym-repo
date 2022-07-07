@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Header section css style Start*/
+.main-header{
+    display: flex;
+    margin-left: px;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.menu-bar{
+    display: flex;
+    margin-top: 70px;
+    list-style: none;
+}
+
+.menu-bar li a{
+    list-style: none;
+    text-decoration: none;
+    padding-left: 50px;
+    font-size: 25px;
+    color: white; 
+}
+
+.menu-bar li a:hover{
+    color: orangered;
+}
+
+.text{
+    color: rgb(233, 214, 214);
+    font-size: 40px;
+}
+/*Header sedtion css style End*/
+
+
+/*Main-container section css style Start*/
+.main-container{
+    display: flex;
+    background-color: black;
+}
+
+.bannar-one{
+    width: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+.text-one{
+    color: white;
+}
+
+h4{
+    color: red;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+h2{
+    font-size: 40px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+p{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+button{
+    background: orangered;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+
+.bannar-two{
+    width: 50%;
+}
+
+.bannar-two img{
+    width: 350px;
+    height: 500px;
+    margin-left: 50px;
+}
+/*Main-container section css style End*/
